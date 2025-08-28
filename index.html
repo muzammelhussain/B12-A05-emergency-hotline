@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hotline</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- daisyui cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwindcss cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="navbar flex justify-between items-center h-[100px] px-8 py-4 gap-4">
+        <div class="left flex justify-between items-center gap-3">
+            <img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="">
+            <h1 class="text-[#006747] text-2xl font-bold ">Emergency <br> Service</h1>
+        </div>
+        <div class="right flex justify-between items-center gap-3">
+            <div class="love flex justify-between items-center gap-3 bg-[#41FF6B1A] px-5 py-3 rounded-3xl w-[106px] h-[52px]">
+                <span id="love-count">3</span>
+                <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
+            </div>
+            <div class="points flex justify-between items-center gap-3 bg-[#41FF6B1A] px-5 py-3 rounded-3xl w-[106px] h-[52px]">
+                <span id="points-count">100</span>
+                <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt="">
+            </div>
+            <div class="copy flex justify-between items-center bg-[#00A63E] rounded-3xl px-9 py-3 ">
+                <h1><span id="copy-count" class="mr-3">2</span>Copy</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
