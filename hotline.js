@@ -12,46 +12,6 @@ let favCount = 0;
 
 
     // make call funtion
-
-// let coins = 100; 
-// const coinCount = document.getElementById("points-count");
-// const callHistory = document.getElementById("call-history");
-// const callButtons = document.querySelectorAll(".call-btn");
-
-// callButtons.forEach(button => {
-//   button.addEventListener("click", () => {
-//     const card = button.closest("div");
-//     console.log(card);
-//     const serviceName = card.querySelector(".service-name").innerText;
-//     const serviceNumber = card.querySelector(".service-number").innerText;
-//     const date = new Date().toLocaleTimeString();
-    
-//     if (coins < 20) {
-//       alert("Not enough coins to make a call!");
-//       return;
-//     }
-
-//     coins -= 20;
-//     coinCount.innerText = coins;
-
-//     // Show alert
-//     alert(`Calling ${serviceName} at ${serviceNumber}...`);
-
-//     // Add to Call History
-//       const div = document.createElement("div")
-//         div.innerHTML=`
-//         <div class="flex justify-between items-center mx-5 bg-[#FAFAFA] rounded-xl px-5 py-4">
-//                         <div>
-//                             <h1>${serviceName} </h1>
-//                             <p>${serviceNumber}</p>
-//                         </div>
-//                         <p>${date}</p>
-//                     </div>
-//         `
-
-//   });
-// });
-
 let coins = 100;
 const coinCountEl = document.getElementById("points-count");
 const callHistoryEl = document.getElementById("call-history");
@@ -106,6 +66,8 @@ callButtons.forEach(button => {
     const callHistory = document.getElementById("call-history");
     callHistory.innerHTML = "";
 }
+
+// copy funtion 
 
 
 let copyCount = 2;
